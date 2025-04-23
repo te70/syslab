@@ -1,0 +1,649 @@
+[1 - Suricata-Main] 2025-02-16 11:27:19 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-16 11:27:19 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-16 11:27:19 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-16 11:27:19 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-16 11:27:19 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-16 11:27:19 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-16 11:27:19 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-16 11:27:19 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-16 11:27:19 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-16 11:27:19 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-16 11:29:18 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-16 11:29:18 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-16 11:29:18 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-16 11:29:18 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-16 11:29:18 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-16 11:29:18 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-16 11:29:18 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-16 11:29:18 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-16 11:29:18 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-16 11:29:18 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-16 11:29:43 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-16 11:29:43 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-16 11:29:44 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-16 11:30:21 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-16 11:30:21 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-16 11:30:22 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-16 11:33:57 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-16 11:33:58 Info: suricata: time elapsed 216.354s
+[1 - Suricata-Main] 2025-02-16 11:33:59 Info: counters: Alerts: 20
+[1 - Suricata-Main] 2025-02-16 11:34:01 Notice: device: eth0: packets: 9790, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-02-16 11:36:26 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-16 11:36:26 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-16 11:36:26 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-16 11:36:26 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-16 11:36:26 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-16 11:36:26 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-16 11:36:26 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-16 11:36:26 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-16 11:36:26 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-16 11:36:26 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-16 11:36:35 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-16 11:36:35 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-16 11:36:35 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-16 11:36:44 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-16 11:36:44 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-16 11:36:44 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-16 11:38:36 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-16 11:38:37 Info: suricata: time elapsed 113.320s
+[1 - Suricata-Main] 2025-02-16 11:38:39 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-02-16 11:38:39 Notice: device: eth0: packets: 395, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-02-16 11:41:22 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-16 11:41:22 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-16 11:41:22 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-16 11:41:22 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-16 11:41:22 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-16 11:41:22 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-16 11:41:22 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-16 11:41:22 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-16 11:41:22 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-16 11:41:22 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-16 11:41:29 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-16 11:41:29 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-16 11:41:29 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-16 11:41:34 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-16 11:41:34 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-16 11:41:34 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-16 12:14:10 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-16 12:14:11 Info: suricata: time elapsed 1957.022s
+[1 - Suricata-Main] 2025-02-16 12:14:12 Info: counters: Alerts: 230
+[1 - Suricata-Main] 2025-02-16 12:14:13 Notice: device: eth0: packets: 62635, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-02-16 12:16:11 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-16 12:16:11 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-16 12:16:11 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-16 12:16:11 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-16 12:16:11 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-16 12:16:11 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-16 12:16:11 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-16 12:16:11 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-16 12:16:11 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-16 12:16:11 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-16 12:16:18 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-16 12:16:18 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-16 12:16:18 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-16 12:16:23 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-16 12:16:23 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-16 12:16:23 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-16 12:38:27 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-16 12:38:27 Info: suricata: time elapsed 1324.595s
+[1 - Suricata-Main] 2025-02-16 12:38:29 Info: counters: Alerts: 248
+[1 - Suricata-Main] 2025-02-16 12:38:30 Notice: device: eth0: packets: 63003, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-02-16 12:38:48 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-16 12:38:48 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-16 12:38:48 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-16 12:38:48 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-16 12:38:48 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-16 12:38:48 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-16 12:38:48 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-16 12:38:48 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-16 12:38:48 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-16 12:38:48 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-16 12:38:55 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-16 12:38:55 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-16 12:38:55 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-16 12:38:59 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-16 12:38:59 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-16 12:38:59 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-16 13:08:42 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-16 13:08:42 Info: suricata: time elapsed 1783.152s
+[1 - Suricata-Main] 2025-02-16 13:08:43 Info: counters: Alerts: 53
+[1 - Suricata-Main] 2025-02-16 13:08:45 Notice: device: eth0: packets: 42780, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-02-17 07:03:51 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-17 07:03:51 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-17 07:03:51 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-17 07:03:51 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-17 07:03:52 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-17 07:03:52 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-17 07:03:52 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-17 07:03:52 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-17 07:03:52 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-17 07:03:52 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-17 07:04:03 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-17 07:04:03 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-17 07:04:03 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-17 07:04:10 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-17 07:04:10 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-17 07:04:10 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-17 07:46:42 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-17 07:46:42 Info: suricata: time elapsed 2552.450s
+[1 - Suricata-Main] 2025-02-17 07:46:44 Info: counters: Alerts: 21
+[1 - Suricata-Main] 2025-02-17 07:46:44 Notice: device: eth0: packets: 26467, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-02-17 08:54:37 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-17 08:54:37 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-17 08:54:37 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-17 08:54:37 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-17 08:54:37 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-17 08:54:37 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-17 08:54:37 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-17 08:54:37 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-17 08:54:37 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-17 08:54:37 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-17 08:54:55 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-17 08:54:55 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-17 08:54:55 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-17 08:55:05 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-17 08:55:06 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-17 08:55:06 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-17 09:43:52 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-17 09:43:52 Info: suricata: time elapsed 2926.574s
+[1 - Suricata-Main] 2025-02-17 09:43:53 Info: counters: Alerts: 28
+[1 - Suricata-Main] 2025-02-17 09:43:54 Notice: device: eth0: packets: 25000, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-02-17 09:46:51 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-17 09:46:51 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-17 09:46:51 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-17 09:46:51 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-17 09:46:51 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-17 09:46:51 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-17 09:46:51 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-17 09:46:51 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-17 09:46:51 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-17 09:46:51 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-17 09:46:58 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-17 09:46:59 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-17 09:46:59 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-17 09:47:05 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-17 09:47:06 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-17 09:47:06 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-17 09:53:28 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-17 09:53:28 Info: suricata: time elapsed 383.015s
+[1 - Suricata-Main] 2025-02-17 09:53:30 Info: counters: Alerts: 4
+[1 - Suricata-Main] 2025-02-17 09:53:32 Notice: device: eth0: packets: 18672, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-02-17 09:54:50 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-17 09:54:50 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-17 09:54:50 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-17 09:54:50 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-17 09:54:50 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-17 09:54:50 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-17 09:54:50 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-17 09:54:50 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-17 09:54:50 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-17 09:54:50 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-17 09:54:57 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-17 09:54:57 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-17 09:54:57 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-17 09:55:02 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-17 09:55:02 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-17 09:55:02 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-17 10:51:58 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-17 10:51:59 Info: suricata: time elapsed 3417.458s
+[1 - Suricata-Main] 2025-02-17 10:52:00 Info: counters: Alerts: 73
+[1 - Suricata-Main] 2025-02-17 10:52:01 Notice: device: eth0: packets: 33821, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-02-17 10:52:51 Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-02-17 10:52:51 Info: cpu: CPUs/cores online: 1
+[1 - Suricata-Main] 2025-02-17 10:52:51 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-02-17 10:52:51 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-02-17 10:52:51 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2025-02-17 10:52:51 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-02-17 10:52:51 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-02-17 10:52:51 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-02-17 10:52:51 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-02-17 10:52:51 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-02-17 10:53:06 Info: detect: 1 rule files processed. 42429 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-02-17 10:53:07 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-02-17 10:53:07 Info: detect: 42432 signatures processed. 1167 are IP-only rules, 4310 are inspecting packet payload, 36739 inspect application layer, 108 are decoder event only
+[1 - Suricata-Main] 2025-02-17 10:53:21 Info: runmodes: eth0: creating 1 thread
+[1 - Suricata-Main] 2025-02-17 10:53:21 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-02-17 10:53:21 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-02-17 11:26:35 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-02-17 11:26:35 Info: suricata: time elapsed 1994.187s
+[1 - Suricata-Main] 2025-02-17 11:26:36 Info: counters: Alerts: 241
+[1 - Suricata-Main] 2025-02-17 11:26:37 Notice: device: eth0: packets: 47122, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 09:48:10 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 09:48:10 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 09:48:10 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 09:48:10 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 09:48:11 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 09:48:11 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 09:48:11 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 09:48:11 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-03-24 09:48:11 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 09:48:24 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 09:48:24 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 09:48:24 Info: detect: 1 rule files processed. 42565 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 09:48:25 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 09:48:25 Info: detect: 42568 signatures processed. 1289 are IP-only rules, 4333 are inspecting packet payload, 36729 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 09:48:36 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 09:48:36 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 09:48:36 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 09:48:36 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-24 10:22:37 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-24 10:22:37 Info: suricata: time elapsed 2041.257s
+[1 - Suricata-Main] 2025-03-24 10:22:38 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-24 10:22:39 Notice: device: eth0: packets: 10833, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 10:22:40 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 10:22:40 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 10:22:40 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 10:22:40 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 10:22:40 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 10:22:40 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 10:22:40 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 10:22:40 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-03-24 10:22:40 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 10:22:40 Info: alert-syslog: Syslog output initialized
+[1 - Suricata-Main] 2025-03-24 10:22:46 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 10:22:46 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 10:22:46 Info: detect: 1 rule files processed. 42565 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 10:22:46 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 10:22:46 Info: detect: 42568 signatures processed. 1289 are IP-only rules, 4333 are inspecting packet payload, 36729 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 10:22:55 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 10:22:55 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 10:22:56 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 10:22:56 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-24 10:25:15 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[27 - Suricata-Main] 2025-03-24 10:25:15 Info: cpu: CPUs/cores online: 2
+[27 - Suricata-Main] 2025-03-24 10:25:15 Info: device: br-ef31b3d94b11: shortening device name to br-e..4b11
+[27 - Suricata-Main] 2025-03-24 10:25:15 Info: suricata: Setting engine mode to IDS mode by default
+[27 - Suricata-Main] 2025-03-24 10:25:15 Info: exception-policy: master exception-policy set to: auto
+[27 - Suricata-Main] 2025-03-24 10:25:15 Info: conf: Running in live mode, activating unix socket
+[27 - Suricata-Main] 2025-03-24 10:25:15 Info: logopenfile: fast output device (regular) initialized: fast.log
+[27 - Suricata-Main] 2025-03-24 10:25:15 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[27 - Suricata-Main] 2025-03-24 10:25:15 Info: logopenfile: stats output device (regular) initialized: stats.log
+[27 - Suricata-Main] 2025-03-24 10:25:15 Info: alert-syslog: Syslog output initialized
+[27 - Suricata-Main] 2025-03-24 10:25:21 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 10:25:21 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 10:25:21 Info: detect: 1 rule files processed. 42565 rules successfully loaded, 0 rules failed, 0
+[27 - Suricata-Main] 2025-03-24 10:25:21 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[27 - Suricata-Main] 2025-03-24 10:25:21 Info: detect: 42568 signatures processed. 1289 are IP-only rules, 4333 are inspecting packet payload, 36729 inspect application layer, 109 are decoder event only
+[27 - Suricata-Main] 2025-03-24 10:25:31 Warning: af-packet: br-ef31b3d94b11: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[27 - Suricata-Main] 2025-03-24 10:25:31 Info: runmodes: br-ef31b3d94b11: creating 2 threads
+[27 - Suricata-Main] 2025-03-24 10:25:31 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[27 - Suricata-Main] 2025-03-24 10:25:31 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-24 10:28:28 Notice: suricata: Signal Received.  Stopping engine.
+[27 - Suricata-Main] 2025-03-24 10:28:28 Info: suricata: time elapsed 177.001s
+[27 - Suricata-Main] 2025-03-24 10:28:29 Info: counters: Alerts: 24
+[27 - Suricata-Main] 2025-03-24 10:28:29 Notice: device: br-ef31b3d94b11: packets: 24739, drops: 0 (0.00%), invalid chksum: 0
+[61 - Suricata-Main] 2025-03-24 10:32:30 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[61 - Suricata-Main] 2025-03-24 10:32:30 Info: cpu: CPUs/cores online: 2
+[61 - Suricata-Main] 2025-03-24 10:32:30 Info: device: br-ef31b3d94b11: shortening device name to br-e..4b11
+[61 - Suricata-Main] 2025-03-24 10:32:30 Info: suricata: Setting engine mode to IDS mode by default
+[61 - Suricata-Main] 2025-03-24 10:32:30 Info: exception-policy: master exception-policy set to: auto
+[61 - Suricata-Main] 2025-03-24 10:32:30 Info: conf: Running in live mode, activating unix socket
+[61 - Suricata-Main] 2025-03-24 10:32:30 Info: logopenfile: fast output device (regular) initialized: fast.log
+[61 - Suricata-Main] 2025-03-24 10:32:30 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[61 - Suricata-Main] 2025-03-24 10:32:30 Info: logopenfile: stats output device (regular) initialized: stats.log
+[61 - Suricata-Main] 2025-03-24 10:32:30 Info: alert-syslog: Syslog output initialized
+[61 - Suricata-Main] 2025-03-24 10:32:37 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[61 - Suricata-Main] 2025-03-24 10:32:37 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[61 - Suricata-Main] 2025-03-24 10:32:37 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[61 - Suricata-Main] 2025-03-24 10:32:37 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[61 - Suricata-Main] 2025-03-24 10:32:37 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[61 - Suricata-Main] 2025-03-24 10:32:46 Warning: af-packet: br-ef31b3d94b11: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[61 - Suricata-Main] 2025-03-24 10:32:46 Info: runmodes: br-ef31b3d94b11: creating 2 threads
+[61 - Suricata-Main] 2025-03-24 10:32:46 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[61 - Suricata-Main] 2025-03-24 10:32:46 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[61 - Suricata-Main] 2025-03-24 10:36:38 Notice: suricata: Signal Received.  Stopping engine.
+[61 - Suricata-Main] 2025-03-24 10:36:39 Info: suricata: time elapsed 232.735s
+[61 - Suricata-Main] 2025-03-24 10:36:39 Info: counters: Alerts: 24
+[61 - Suricata-Main] 2025-03-24 10:36:39 Notice: device: br-ef31b3d94b11: packets: 24783, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 10:46:21 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-24 10:46:21 Info: suricata: time elapsed 1405.731s
+[1 - Suricata-Main] 2025-03-24 10:46:22 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-24 10:46:23 Notice: device: eth0: packets: 5716, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 10:46:24 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 10:46:24 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 10:46:24 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 10:46:24 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 10:46:24 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 10:46:24 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 10:46:24 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 10:46:24 Notice: output-eve-syslog: Syslog: facility local0, level (null), ident (null)
+[1 - Suricata-Main] 2025-03-24 10:46:24 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 10:46:24 Info: alert-syslog: Syslog output initialized
+[1 - Suricata-Main] 2025-03-24 10:46:32 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 10:46:32 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 10:46:32 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 10:46:33 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 10:46:33 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 10:46:44 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 10:46:44 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 10:46:44 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 10:46:44 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-24 10:49:23 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[27 - Suricata-Main] 2025-03-24 10:49:23 Info: cpu: CPUs/cores online: 2
+[27 - Suricata-Main] 2025-03-24 10:49:23 Info: device: br-ef31b3d94b11: shortening device name to br-e..4b11
+[27 - Suricata-Main] 2025-03-24 10:49:23 Info: suricata: Setting engine mode to IDS mode by default
+[27 - Suricata-Main] 2025-03-24 10:49:23 Info: exception-policy: master exception-policy set to: auto
+[27 - Suricata-Main] 2025-03-24 10:49:23 Info: conf: Running in live mode, activating unix socket
+[27 - Suricata-Main] 2025-03-24 10:49:23 Info: logopenfile: fast output device (regular) initialized: fast.log
+[27 - Suricata-Main] 2025-03-24 10:49:23 Notice: output-eve-syslog: Syslog: facility local0, level (null), ident (null)
+[27 - Suricata-Main] 2025-03-24 10:49:23 Info: logopenfile: stats output device (regular) initialized: stats.log
+[27 - Suricata-Main] 2025-03-24 10:49:23 Info: alert-syslog: Syslog output initialized
+[27 - Suricata-Main] 2025-03-24 10:49:30 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 10:49:30 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 10:49:30 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[27 - Suricata-Main] 2025-03-24 10:49:30 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[27 - Suricata-Main] 2025-03-24 10:49:30 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[27 - Suricata-Main] 2025-03-24 10:49:42 Warning: af-packet: br-ef31b3d94b11: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[27 - Suricata-Main] 2025-03-24 10:49:42 Info: runmodes: br-ef31b3d94b11: creating 2 threads
+[27 - Suricata-Main] 2025-03-24 10:49:42 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[27 - Suricata-Main] 2025-03-24 10:49:42 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-24 11:04:34 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-24 11:04:35 Info: suricata: time elapsed 1071.311s
+[1 - Suricata-Main] 2025-03-24 11:04:36 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-24 11:04:37 Notice: device: eth0: packets: 680, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 11:05:18 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 11:05:18 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 11:05:18 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 11:05:18 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 11:05:18 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 11:05:18 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 11:05:18 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 11:05:18 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-03-24 11:05:18 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 11:05:22 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:05:22 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:05:23 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 11:05:23 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 11:05:23 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 11:05:28 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 11:05:28 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 11:05:28 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 11:05:29 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-24 11:07:27 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[27 - Suricata-Main] 2025-03-24 11:07:27 Info: cpu: CPUs/cores online: 2
+[27 - Suricata-Main] 2025-03-24 11:07:27 Info: device: br-95e4f74ae3df: shortening device name to br-9..e3df
+[27 - Suricata-Main] 2025-03-24 11:07:27 Info: suricata: Setting engine mode to IDS mode by default
+[27 - Suricata-Main] 2025-03-24 11:07:27 Info: exception-policy: master exception-policy set to: auto
+[27 - Suricata-Main] 2025-03-24 11:07:27 Info: conf: Running in live mode, activating unix socket
+[27 - Suricata-Main] 2025-03-24 11:07:27 Info: logopenfile: fast output device (regular) initialized: fast.log
+[27 - Suricata-Main] 2025-03-24 11:07:27 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[27 - Suricata-Main] 2025-03-24 11:07:27 Info: logopenfile: stats output device (regular) initialized: stats.log
+[27 - Suricata-Main] 2025-03-24 11:07:30 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 11:07:30 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 11:07:30 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[27 - Suricata-Main] 2025-03-24 11:07:30 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[27 - Suricata-Main] 2025-03-24 11:07:30 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[27 - Suricata-Main] 2025-03-24 11:07:35 Warning: af-packet: br-95e4f74ae3df: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[27 - Suricata-Main] 2025-03-24 11:07:35 Info: runmodes: br-95e4f74ae3df: creating 2 threads
+[27 - Suricata-Main] 2025-03-24 11:07:35 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[27 - Suricata-Main] 2025-03-24 11:07:35 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-24 11:09:39 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-24 11:09:40 Info: suricata: time elapsed 252.216s
+[1 - Suricata-Main] 2025-03-24 11:09:41 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-24 11:09:42 Notice: device: eth0: packets: 328, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 11:28:22 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 11:28:22 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 11:28:22 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 11:28:22 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 11:28:22 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 11:28:22 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 11:28:22 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 11:28:22 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-03-24 11:28:22 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 11:28:27 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:28:27 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:28:27 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 11:28:27 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 11:28:27 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 11:28:32 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 11:28:32 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 11:28:32 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 11:28:32 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-24 11:34:33 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-24 11:34:33 Info: suricata: time elapsed 360.511s
+[1 - Suricata-Main] 2025-03-24 11:34:34 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-24 11:34:35 Notice: device: eth0: packets: 209, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 11:34:35 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 11:34:35 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 11:34:35 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 11:34:35 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 11:34:35 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 11:34:35 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 11:34:35 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 11:34:35 Notice: output-eve-syslog: Syslog: facility local5, level (null), ident (null)
+[1 - Suricata-Main] 2025-03-24 11:34:35 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 11:34:39 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:34:39 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:34:39 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 11:34:39 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 11:34:39 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 11:34:42 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 11:34:42 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 11:34:42 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 11:34:43 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-24 11:35:55 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[27 - Suricata-Main] 2025-03-24 11:35:55 Info: cpu: CPUs/cores online: 2
+[27 - Suricata-Main] 2025-03-24 11:35:55 Info: device: br-9c37dd89e3e1: shortening device name to br-9..e3e1
+[27 - Suricata-Main] 2025-03-24 11:35:55 Info: suricata: Setting engine mode to IDS mode by default
+[27 - Suricata-Main] 2025-03-24 11:35:55 Info: exception-policy: master exception-policy set to: auto
+[27 - Suricata-Main] 2025-03-24 11:35:55 Info: conf: Running in live mode, activating unix socket
+[27 - Suricata-Main] 2025-03-24 11:35:55 Info: logopenfile: fast output device (regular) initialized: fast.log
+[27 - Suricata-Main] 2025-03-24 11:35:55 Notice: output-eve-syslog: Syslog: facility local5, level (null), ident (null)
+[27 - Suricata-Main] 2025-03-24 11:35:55 Info: logopenfile: stats output device (regular) initialized: stats.log
+[27 - Suricata-Main] 2025-03-24 11:35:59 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 11:35:59 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 11:35:59 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[27 - Suricata-Main] 2025-03-24 11:35:59 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[27 - Suricata-Main] 2025-03-24 11:35:59 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[27 - Suricata-Main] 2025-03-24 11:36:02 Warning: af-packet: br-9c37dd89e3e1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[27 - Suricata-Main] 2025-03-24 11:36:02 Info: runmodes: br-9c37dd89e3e1: creating 2 threads
+[27 - Suricata-Main] 2025-03-24 11:36:02 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[27 - Suricata-Main] 2025-03-24 11:36:03 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-24 11:47:09 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-24 11:47:09 Info: suricata: time elapsed 747.152s
+[1 - Suricata-Main] 2025-03-24 11:47:10 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-24 11:47:11 Notice: device: eth0: packets: 548, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 11:47:11 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 11:47:11 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 11:47:11 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 11:47:11 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 11:47:11 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 11:47:11 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 11:47:11 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 11:47:11 Notice: output-eve-syslog: Syslog: facility local5, level (null), ident (null)
+[1 - Suricata-Main] 2025-03-24 11:47:11 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 11:47:13 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:47:13 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:47:14 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 11:47:14 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 11:47:14 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 11:47:17 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 11:47:17 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 11:47:17 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 11:47:17 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-24 11:47:31 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[27 - Suricata-Main] 2025-03-24 11:47:31 Info: cpu: CPUs/cores online: 2
+[27 - Suricata-Main] 2025-03-24 11:47:31 Info: device: br-9c37dd89e3e1: shortening device name to br-9..e3e1
+[27 - Suricata-Main] 2025-03-24 11:47:31 Info: suricata: Setting engine mode to IDS mode by default
+[27 - Suricata-Main] 2025-03-24 11:47:31 Info: exception-policy: master exception-policy set to: auto
+[27 - Suricata-Main] 2025-03-24 11:47:31 Info: conf: Running in live mode, activating unix socket
+[27 - Suricata-Main] 2025-03-24 11:47:31 Info: logopenfile: fast output device (regular) initialized: fast.log
+[27 - Suricata-Main] 2025-03-24 11:47:31 Notice: output-eve-syslog: Syslog: facility local5, level (null), ident (null)
+[27 - Suricata-Main] 2025-03-24 11:47:31 Info: logopenfile: stats output device (regular) initialized: stats.log
+[27 - Suricata-Main] 2025-03-24 11:47:33 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 11:47:33 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 11:47:34 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[27 - Suricata-Main] 2025-03-24 11:47:34 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[27 - Suricata-Main] 2025-03-24 11:47:34 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[27 - Suricata-Main] 2025-03-24 11:47:37 Warning: af-packet: br-9c37dd89e3e1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[27 - Suricata-Main] 2025-03-24 11:47:37 Info: runmodes: br-9c37dd89e3e1: creating 2 threads
+[27 - Suricata-Main] 2025-03-24 11:47:37 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[27 - Suricata-Main] 2025-03-24 11:47:38 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-24 11:55:15 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-24 11:55:15 Info: suricata: time elapsed 478.228s
+[1 - Suricata-Main] 2025-03-24 11:55:16 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-24 11:55:16 Notice: device: eth0: packets: 2725, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 11:55:17 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 11:55:17 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 11:55:17 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 11:55:17 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 11:55:17 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 11:55:17 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 11:55:17 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 11:55:17 Notice: output-eve-syslog: Syslog: facility local5, level Info, ident suricata
+[1 - Suricata-Main] 2025-03-24 11:55:17 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 11:55:19 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:55:19 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 11:55:19 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 11:55:20 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 11:55:20 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 11:55:23 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 11:55:23 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 11:55:23 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 11:55:23 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-24 11:55:29 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[27 - Suricata-Main] 2025-03-24 11:55:29 Info: cpu: CPUs/cores online: 2
+[27 - Suricata-Main] 2025-03-24 11:55:29 Info: device: br-9c37dd89e3e1: shortening device name to br-9..e3e1
+[27 - Suricata-Main] 2025-03-24 11:55:29 Info: suricata: Setting engine mode to IDS mode by default
+[27 - Suricata-Main] 2025-03-24 11:55:29 Info: exception-policy: master exception-policy set to: auto
+[27 - Suricata-Main] 2025-03-24 11:55:29 Info: conf: Running in live mode, activating unix socket
+[27 - Suricata-Main] 2025-03-24 11:55:29 Info: logopenfile: fast output device (regular) initialized: fast.log
+[27 - Suricata-Main] 2025-03-24 11:55:29 Notice: output-eve-syslog: Syslog: facility local5, level Info, ident suricata
+[27 - Suricata-Main] 2025-03-24 11:55:29 Info: logopenfile: stats output device (regular) initialized: stats.log
+[27 - Suricata-Main] 2025-03-24 11:55:31 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 11:55:31 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-24 11:55:31 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[27 - Suricata-Main] 2025-03-24 11:55:31 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[27 - Suricata-Main] 2025-03-24 11:55:31 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[27 - Suricata-Main] 2025-03-24 11:55:35 Warning: af-packet: br-9c37dd89e3e1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[27 - Suricata-Main] 2025-03-24 11:55:35 Info: runmodes: br-9c37dd89e3e1: creating 2 threads
+[27 - Suricata-Main] 2025-03-24 11:55:35 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[27 - Suricata-Main] 2025-03-24 11:55:35 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-24 12:10:27 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-24 12:10:27 Info: suricata: time elapsed 904.133s
+[1 - Suricata-Main] 2025-03-24 12:10:28 Info: counters: Alerts: 1
+[1 - Suricata-Main] 2025-03-24 12:10:30 Notice: device: eth0: packets: 6892, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 12:10:32 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 12:10:32 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 12:10:32 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 12:10:32 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 12:10:33 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 12:10:33 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 12:10:33 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 12:10:33 Notice: output-eve-syslog: Syslog: facility local5, level Info, ident suricata
+[1 - Suricata-Main] 2025-03-24 12:10:33 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 12:10:40 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 12:10:40 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 12:10:40 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 12:10:40 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 12:10:41 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 12:10:47 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 12:10:47 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 12:10:47 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 12:10:47 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-24 12:48:56 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-24 12:48:57 Info: suricata: time elapsed 2290.096s
+[1 - Suricata-Main] 2025-03-24 12:48:58 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-24 12:48:59 Notice: device: eth0: packets: 1557, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-24 13:01:54 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-24 13:01:54 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-24 13:01:54 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-24 13:01:54 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-24 13:01:54 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-24 13:01:54 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-24 13:01:54 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-24 13:01:54 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-03-24 13:01:54 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-24 13:02:10 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 13:02:10 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-24 13:02:11 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-24 13:02:11 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-24 13:02:12 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-24 13:02:29 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-24 13:02:29 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-24 13:02:29 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-24 13:02:30 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-25 13:34:19 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-25 13:34:19 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-25 13:34:19 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-25 13:34:19 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-25 13:34:19 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-25 13:34:19 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-25 13:34:19 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-25 13:34:19 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-03-25 13:34:19 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-25 13:34:22 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-25 13:34:22 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-25 13:34:23 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-25 13:34:23 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-25 13:34:23 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-25 13:34:27 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-25 13:34:27 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-25 13:34:27 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-25 13:34:27 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-25 13:39:05 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[27 - Suricata-Main] 2025-03-25 13:39:05 Info: cpu: CPUs/cores online: 2
+[27 - Suricata-Main] 2025-03-25 13:39:05 Info: device: br-815e71ee943b: shortening device name to br-8..943b
+[27 - Suricata-Main] 2025-03-25 13:39:05 Info: suricata: Setting engine mode to IDS mode by default
+[27 - Suricata-Main] 2025-03-25 13:39:05 Info: exception-policy: master exception-policy set to: auto
+[27 - Suricata-Main] 2025-03-25 13:39:06 Info: conf: Running in live mode, activating unix socket
+[27 - Suricata-Main] 2025-03-25 13:39:06 Info: logopenfile: fast output device (regular) initialized: fast.log
+[27 - Suricata-Main] 2025-03-25 13:39:06 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[27 - Suricata-Main] 2025-03-25 13:39:06 Info: logopenfile: stats output device (regular) initialized: stats.log
+[27 - Suricata-Main] 2025-03-25 13:39:09 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-25 13:39:09 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-25 13:39:09 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[27 - Suricata-Main] 2025-03-25 13:39:09 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[27 - Suricata-Main] 2025-03-25 13:39:09 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[27 - Suricata-Main] 2025-03-25 13:39:14 Warning: af-packet: br-815e71ee943b: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[27 - Suricata-Main] 2025-03-25 13:39:14 Info: runmodes: br-815e71ee943b: creating 2 threads
+[27 - Suricata-Main] 2025-03-25 13:39:14 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[27 - Suricata-Main] 2025-03-25 13:39:14 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-25 13:45:27 Notice: suricata: Signal Received.  Stopping engine.
+[27 - Suricata-Main] 2025-03-25 13:45:28 Info: suricata: time elapsed 374.394s
+[27 - Suricata-Main] 2025-03-25 13:45:29 Info: counters: Alerts: 0
+[27 - Suricata-Main] 2025-03-25 13:45:29 Notice: device: br-815e71ee943b: packets: 34, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-25 13:50:07 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-25 13:50:07 Info: suricata: time elapsed 939.708s
+[1 - Suricata-Main] 2025-03-25 13:50:07 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-25 13:50:07 Notice: device: eth0: packets: 75, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-03-25 13:50:08 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-03-25 13:50:08 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2025-03-25 13:50:08 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-03-25 13:50:08 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-03-25 13:50:08 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2025-03-25 13:50:08 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-03-25 13:50:08 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-03-25 13:50:08 Notice: output-eve-syslog: Syslog: facility local5, level Info, ident suricata
+[1 - Suricata-Main] 2025-03-25 13:50:08 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-03-25 13:50:11 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-25 13:50:11 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-03-25 13:50:11 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-03-25 13:50:12 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-03-25 13:50:12 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-03-25 13:50:16 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-03-25 13:50:16 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2025-03-25 13:50:16 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-03-25 13:50:16 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[27 - Suricata-Main] 2025-03-25 13:50:18 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[27 - Suricata-Main] 2025-03-25 13:50:18 Info: cpu: CPUs/cores online: 2
+[27 - Suricata-Main] 2025-03-25 13:50:18 Info: device: br-815e71ee943b: shortening device name to br-8..943b
+[27 - Suricata-Main] 2025-03-25 13:50:18 Info: suricata: Setting engine mode to IDS mode by default
+[27 - Suricata-Main] 2025-03-25 13:50:18 Info: exception-policy: master exception-policy set to: auto
+[27 - Suricata-Main] 2025-03-25 13:50:18 Info: conf: Running in live mode, activating unix socket
+[27 - Suricata-Main] 2025-03-25 13:50:18 Info: logopenfile: fast output device (regular) initialized: fast.log
+[27 - Suricata-Main] 2025-03-25 13:50:18 Notice: output-eve-syslog: Syslog: facility local5, level Info, ident suricata
+[27 - Suricata-Main] 2025-03-25 13:50:18 Info: logopenfile: stats output device (regular) initialized: stats.log
+[27 - Suricata-Main] 2025-03-25 13:50:21 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-25 13:50:21 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[27 - Suricata-Main] 2025-03-25 13:50:21 Info: detect: 1 rule files processed. 42576 rules successfully loaded, 0 rules failed, 0
+[27 - Suricata-Main] 2025-03-25 13:50:21 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[27 - Suricata-Main] 2025-03-25 13:50:21 Info: detect: 42579 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 36744 inspect application layer, 109 are decoder event only
+[27 - Suricata-Main] 2025-03-25 13:50:25 Warning: af-packet: br-815e71ee943b: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[27 - Suricata-Main] 2025-03-25 13:50:25 Info: runmodes: br-815e71ee943b: creating 2 threads
+[27 - Suricata-Main] 2025-03-25 13:50:25 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[27 - Suricata-Main] 2025-03-25 13:50:26 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-03-25 14:17:44 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-03-25 14:17:45 Info: suricata: time elapsed 1648.525s
+[1 - Suricata-Main] 2025-03-25 14:17:46 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-03-25 14:17:46 Notice: device: eth0: packets: 9922, drops: 0 (0.00%), invalid chksum: 0

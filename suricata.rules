@@ -1,0 +1,8 @@
+alert http any any -> any any (msg:"Possible XSS Attack"; content:"<script>"; nocase; sid:10>
+alert tcp any any -> any 22 (msg:"SSH Brute Force Attempt"; threshold: type threshold, track>
+alert icmp any any -> any any (msg:"ICMP detected"; sid:1000001; rev:1;)
+alert tcp any any -> $HOME_NET any (msg:"Potential SYN Flood Attack"; flow:stateless; flags:S; threshold: type both, track by_dst, count 50, seconds 5; sid:1000001; rev:1;)
+alert tcp any any -> $HOME_NET any (msg:"Possible SYN Flood - Single Source"; flags:S; flow:stateless; threshold: type both, track by_src, count 100, seconds 10; sid:1000002; rev:1;)
+alert tcp any any -> $HOME_NET any (msg:"Half-open SYN flood attack detected"; flags:S; flow:stateless; detection_filter: track by_dst, count 30, seconds 5; sid:1000003; rev:1;)
+alert tcp any any -> $HOME_NET any (msg:"Possible SYN Flood - Single Source"; flags:S; flow:stateless; threshold: type both, track by_src, count 10, seconds 2; sid:1000002; rev:2;)
+

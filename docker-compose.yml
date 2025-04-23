@@ -1,0 +1,102 @@
+services:
+  loki:
+    image: grafana/loki:latest
+    container_name: loki_3
+    hostname: loki
+    user: "root"
+    volumes:
+      - /var/lib/loki:/loki
+      - /var/lib/loki/rules:/loki/rules
+      - /var/lib/loki/chunks:/loki/chunks
+      - ./loki-config.yml:/etc/loki/loki-config.yaml
+    command: -config.file=/etc/loki/local-config.yaml
+    restart: unless-stopped
+    ports:
+      - "3100:3100"
+    networks:
+      syslab:
+        ipv4_address: 192.168.51.12
+  
+  promtail:
+    image: grafana/promtail:latest
+    container_name: promtail_3
+    user: "root"
+    volumes:
+      - /var/log/suricata:/var/log/suricata
+      - /var/lib/suricata:/var/lib/suricata
+      - ./promtail-config.yml:/etc/promtail/promtail-config.yaml
+    command: -config.file=/etc/promtail/promtail-config.yaml
+    restart: unless-stopped
+    ports:
+      - "9080:9080"
+    networks:
+      syslab:
+        ipv4_address: 192.168.51.13
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana_3
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    networks:
+      syslab:
+        ipv4_address: 192.168.51.14
+
+  suricata:
+    image: jasonish/suricata
+    container_name: suricata_3
+    volumes:
+      - ./suricata.rules:/etc/suricata/rules/local.rules
+      - /var/log/suricata:/var/log/suricata
+      - /var/lib/suricata:/var/lib/suricata
+      - ./suricata-logs:/var/log/suricata
+    command: ["-i", "eth0"]
+    cap_add:
+      - NET_ADMIN
+      - SYS_NICE
+      - NET_RAW
+    network_mode: host
+  
+  kali:
+    build: ./kalii
+    container_name: kali_3
+    command: ["/bin/bash"]
+    stdin_open: true
+    tty: true
+    privileged: true
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    networks:
+      syslab:
+        ipv4_address: 192.168.51.15
+
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx_3
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    networks:
+      syslab:
+        ipv4_address: 192.168.51.20 
+        
+networks:
+  syslab:
+    name: syslab
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.51.0/24
+
+volumes:
+  grafana-storage: {}
+  kali_data:
+    driver: local
+  data: 
